@@ -1,0 +1,81 @@
+@media screen and (min-width: 700px){
+    @font-face{
+      font-family: 'MyWebFont';
+      src: url ('FiraSansCondensed-Bold-webfont.woff') format ('woff'),
+           url ('RobotoSlab-Bold-webfont.woff') format ('woff'),
+           url ('RobotoSlab-Regular-webfont.woff') format ('woff');
+        
+    }
+    header{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+     }
+    #island{
+      width: 2000%;
+      background: contain;
+      
+    }
+    h1{
+      font-family: 'Avenir';
+      font-size: 150px;
+      color: #014262;
+      background-color: #FBF7EB;
+      position: relative;
+      left: 700px;
+      bottom: 10px;
+    }
+    div{
+      width: 400px;
+      position: relative; 
+      bottom: 120px;
+    }
+    h2{
+      font-family: 'Roboto Slab bold';
+      font-size: 20px;
+      color: #014262;
+      position: relative;
+      left: 830px;
+      bottom: 200px;
+      justify-content: left;
+      text-align: left;
+    }
+    p{
+      font-family: 'Roboto Slab regular';
+      font-size: 16px;
+      color: #4E4E4E;
+      position: relative;
+      left: 830px;
+      bottom: 200px;
+      text-align: left;
+     }
+    #surfer{
+      width: 230px;
+      height: 300px;
+      border-radius: 5px;
+    }
+    #palm{
+      width: 230px;
+      height: 300px;
+      border-radius: 5px;
+       position: relative; 
+      left: 20px;
+    }
+    
+    #surfer-girl{
+      width: 230px;
+      height: 300px;
+      border-radius: 5px;
+      position: relative; 
+      left: 40px;
+    }
+    #images{
+      display: flex;
+      flex-direction: row;
+      position: relative;
+      top: 750px;
+      left: 25px;
+      
+      
+    }
+    }
